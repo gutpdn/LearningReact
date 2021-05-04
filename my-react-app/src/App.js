@@ -1,5 +1,10 @@
 import React from "react";
+import MapPage from "./MapPage/MapPage";
 
 export default () => {
-  return <div>abc</div>;
+  return (
+    <div>
+      <MapPage />
+    </div>
+  );
 };
